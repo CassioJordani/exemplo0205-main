@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Postagem</title>
+</head>
+<body>
+    <h1>Adicionar Nova Postagem</h1>
+    <form action="/add" method="POST">
+        <label for="titulo">Titulo:</label>
+        <input type="text" name="titulo" id="titulo" required>
+
+        <br>
+
+        <label for="conteudo">Conteúdo:</label>
+        <textarea name="conteudo" id="conteudo" required></textarea>
+
+        <br>
+
+        <button type="submit">Adicionar</button>
+
+    </form>
+
+    <a href="/">Voltar a lista de postagens</a>
+</body>
+</html>
